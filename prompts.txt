@@ -1,0 +1,37 @@
+# prompts.txt
+# AI Assistant Used: Claude (claude.ai) — accessed via browser
+# Code Editor: VS Code
+# ============================================================
+# These are the prompts I used with Claude AI during this project.
+# ============================================================
+
+1. "Help me with this Audio Bee practical test. I need to build a Playwright scraper
+   in Python that extracts entertainment news and cartoon of the day from ekantipur.com."
+
+2. "I need to extract the top 5 entertainment news articles from ekantipur.com/entertainment
+   with fields: title, image_url, category, and author. Write a Playwright Python script
+   for this."
+
+3. "I am unable to extract the cartoon of the day section from ekantipur.com. Where is
+   that section actually?"
+
+4. "The cartoon section was not found on ekantipur.com. Help me find the correct URL
+   and DOM structure for the cartoon."
+
+5. "I ran this in DevTools Console and got all undefined results:
+   const card = document.querySelector('article') || document.querySelector('.node');
+   How do I find the real selectors?"
+
+6. "I ran the DOM dump in DevTools Console and found these classes:
+   SECTION.cartoon-main-wrapper, DIV.cartoon-wrapper, DIV.cartoon-image,
+   DIV.cartoon-description, IMG.lazy
+   The cartoon is at ekantipur.com/cartoon. Write the scraper using these exact selectors."
+
+7. "The cartoon description <p> contains both title and author in one string like
+   'गजब छ बा! - अविन'. How do I split them correctly in Python?"
+
+8. "This is my final scraper — review it and fix any issues before submission:
+   [pasted full scraper code]"
+
+9. "The task requires a prompts.txt file but I used VS Code not Cursor.
+   What should I write in prompts.txt?"
