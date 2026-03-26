@@ -3,7 +3,6 @@
 This project contains the web scraping logic for extracting **Entertainment News** and the **Cartoon of the Day** (व्यंग्यचित्र) from Ekantipur.
 
 ## 📋 Requirements
-Save the following as `requirements.txt`:
 
 ```text
 playwright==1.58.0
